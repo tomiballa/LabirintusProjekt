@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Numerics;
 using System.Diagnostics;
@@ -63,18 +63,16 @@ namespace Labirintus
             if (inp.EndsWith(".SAV"))
             {
                 loadMap(inp);
-                Console.WriteLine("loading save");
+                return;
             }
-            else
-            {
-                mapName = inp;
 
-                initGame();
+            mapName = inp;
 
-                int[] sp = getStartingPos();
-                p.setPos(sp[0], sp[1]);
-                setAreaDiscovered(sp[1], sp[0]);
-            }
+            initGame();
+
+            int[] sp = getStartingPos();
+            p.setPos(sp[0], sp[1]);
+            setAreaDiscovered(sp[1], sp[0]);
         }
 
         public void initGame()
