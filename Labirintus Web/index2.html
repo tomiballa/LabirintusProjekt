@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet" type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="style.css">
+    <title>Labirintus játék</title>
+  </head>
+  <body>
+    <div class="container my-5">
+      <h1 class="text-center">Labirintus játék</h1>
+      <p class="lead text-justify">
+        A játék arról szól, hogy a játékosnak fel kell fedeznie minden szobát egy labirintusban, majd keresni egy kijáratot.
+      </p>
+      <p class="lead text-justify">A játék megnyitása után, a menüben lehet angol és magyar nyelvet, pályát vagy annak mentését állítani, és persze elindítani a játékot.</p>
+      <div class="row">
+        <div class="col-sm-6">
+          <img
+            src="./Images/scr1.png" 
+            alt="Labirintus játék"
+            class="img-fluid rounded mb-3"
+          />
+        </div>
+        <div class="col-sm-6">
+          <img
+            src="./Images/scr2.png" 
+            alt="Labirintus játék"
+            class="img-fluid rounded mb-3"
+          />
+        </div>
+        <div class="col-sm-6">
+          <img
+            src="./Images/scr3.png" 
+            alt="Labirintus játék"
+            class="img-fluid rounded mb-3"
+          />
+        </div>
+        <div class="col-sm-6">
+          <img
+            src="./Images/scr4.png" 
+            alt="Labirintus játék"
+            class="img-fluid rounded mb-3"
+          />
+        </div>
+        <div class="row-sm-6 tt">
+          <h2>Amit a játékunk nyújt;</h2>
+          <ul>
+            <li>Kis nehezítés, vagyis labirintus felfedezése</li>
+            <li>Minőségi User Interface</li>
+            <li>Szórakozás</li>
+            <li>Egyszerű, de nagyszerű grafikák</li>
+            <li>Bug nélküli játékmenet</li>
+          </ul>
+        </div>
+        <div class="row-sm-6" id="iranyitas">
+            <h2>Irányítás</h2>
+            <ul>
+              <li>W - előre</li>
+              <li>A - Balra</li>
+              <li>S - hátra</li>
+              <li>D - jobbra</li>
+            </ul>
+          </div>
+      </div>
+      <div class="text-center my-5">
+        <button
+          class="btn btn-primary btn-lg"
+          onclick="window.location.href='https:/\/github.com/tomiballa/LabirintusProjekt'"
+        >
+          Töltsd le itt a játékot!
+        </button>
+      </div>
+      <div class="review-section">
+        <h2 class="text-center">Véleményed fontos számunkra! Küldd el nekünk, hogy fejleszthessük a játékot!</h2>
+        <form action="submit-review.php" method="post">
+          <div class="form-group">
+            <label for="review-name">A neved:</label>
+            <input type="text" placeholder="Gipsz Jakab" class="form-control" id="review-name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="review-email">Az e-mail címed:</label>
+            <input type="email" placeholder="teszt@gmail.com" class="form-control" id="review-email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="review-message">A véleményed:</label>
+            <textarea class="form-control" placeholder="Ide várjuk a véleményt" id="review-message" name="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" onclick="alert('Véleményed elküldésre került. Köszönjük a visszajelzést!')">Vélemény elküldése</button>
+        </form>
+      </div>
+      <br>
+      <br>
+      <div class="review-section">
+        <h2 class="text-center">Iratkozz fel a hírlevelünkre, hogy ne maradj le a frissítésekről!</h2>
+          <div class="form-group">
+            <label for="review-email">Az e-mail címed:</label>
+            <input type="email" placeholder="teszt@gmail.com" class="form-control" id="review-email" name="email" required>
+          </div>
+          <button type="submit" class="btn btn-primary" onclick="alert('Sikeres feliratkozás!')">Feliratkozás!</button>
+        </form>
+      </div>
+      <br>
+      <br>
+      <h2 class="text-center">Csapatunk</h2>
+      <div style="display: flex; justify-content: space-between;" class="review-section">
+        <img src="Images/user1.jpg" alt="david" style="width: 30%; border-radius: 10px;">
+        <img src="Images/user2.jpg" alt="tamas" style="width: 30%; border-radius: 10px;">
+        <img src="Images/user3.jpg" alt="feri" style="width: 30%; border-radius: 10px;">
+      </div>
+    </div>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>

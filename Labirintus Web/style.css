@@ -1,0 +1,105 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+  background-color: #1d5596;
+}
+
+h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+}
+
+p.lead {
+  font-size: 18px;
+  color: white;
+  line-height: 1.5;
+
+}
+
+ul {
+  padding: 0;
+  color: white;
+}
+
+li {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+  font-family: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+}
+
+button.btn {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+button.btn:hover {
+  background-color: #ffffff;
+  color: #4c4c4c;
+  cursor: pointer;
+  transition: ease 0.5s;
+  font-family: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+  box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #0d5cb8, 0 0 40px #1173ce, 0 0 50px #1f5eb1;
+}
+
+.container {
+  background: linear-gradient(to bottom, #8d2de2, #4b00e0);
+  padding: 30px;
+  box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #0d5cb8, 0 0 40px #1173ce, 0 0 50px #1f5eb1, 0 0 60px #1c5aac, 0 0 70px #1d5596;
+  border-radius: 10px;
+  color: white;
+  font-family: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+}
+
+p {
+  color: #4c4c4c;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-family: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+}
+
+button {
+  background-color: #4c4c4c;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 18px;
+  transition: all 0.3s;
+  font-family: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+  box-shadow: 0 0 10px #0a459e00, 0 0 20px #083da0fb, 0 0 30px #0d5cb8, 0 0 40px #1173ce;
+}
+
+.review-section {
+  background: linear-gradient(to bottom, #8d2de2, #4b00e0);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+#iranyitas {
+  margin-left: 100px;
+}
+
+.tt {
+  margin-left: 50px;
+}
