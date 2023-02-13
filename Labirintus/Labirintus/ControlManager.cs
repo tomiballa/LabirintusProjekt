@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Globalization;
 using System.Runtime.InteropServices;
@@ -31,14 +31,14 @@ namespace Labirintus
 
                 int isf = nextMoveFinish(nextX, nextY);
 
-                if((isf == 1 || isf == 0) && mapManager.getDiscTreasureCount() == mapManager.getTreasureCount())
+                if(isf == 0 && mapManager.getDiscTreasureCount() == mapManager.getTreasureCount())
                 {
                     mapManager.showSuccess("win");
                     Thread.Sleep(3000);
                     finished = true;
                 }
 
-                if (isf != -1 && isf != 3)
+                if (isf == 0)
                 {
                     mapManager.showError("cant_exit");
                     if (isf == 0) return;
