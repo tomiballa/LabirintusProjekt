@@ -234,11 +234,11 @@ namespace Labirintus
 
         string getValidMoveNames()
         {
-            string[] validNames = {"Észak", "Kelet", "Dél", "Nyugat"};
+            string[] validNames = {"north", "east", "south", "west"};
             ArrayList validMoves = new ArrayList();
             foreach (int i in moveMatrix[player.getY(), player.getX()])
             {
-                validMoves.Add(validNames[i - 1]);
+                validMoves.Add(languageManager.parseText(validNames[i - 1]));
             }
             return string.Join(",", (string[])validMoves.ToArray(typeof(string)));
         }
