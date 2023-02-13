@@ -1,0 +1,10 @@
+Selected language:
+Enter the path to the file: 
+Currently you can use the following actions.\nWhen you have finished editing the map, press ENTER to save.
+ | Arrows | Move |\n | F1 | █ |\n | F2 | ╬ |\n | F3 | ═ |\n | F4 | ╦ |\n | F5 | ╩ |\n | F6 | ║ |\n | F7 | ╣ |\n | F8 | ╠ |\n | F9 | ╗ |\n | F10 | ╝ |\n | F12 | ╔ |\n | Insert | ╚ |\n | Delete | . |
+Enter the track name: 
+The track has been saved successfully!
+If you want to save the track, press END!\nTo continue editing, press HOME!
+Saving the track is not recommended, as there are no rooms and exits!
+Saving the track is not recommended, as there are no exits!
+It is not recommended to save the track, because there are no rooms!

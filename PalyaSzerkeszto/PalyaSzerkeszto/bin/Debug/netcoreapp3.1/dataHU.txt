@@ -1,0 +1,10 @@
+Választott nyelv: 
+Add meg a fájl elérési útját: 
+Jelenleg az alábbi műveleteket tudod használni.\nHa befejezted a pálya szerkesztését, nyomd meg az ENTER billentyűt a mentéshez!
+ | Nyilak | Mozgás |\n | F1 | █ |\n | F2 | ╬ |\n | F3 | ═ |\n | F4 | ╦ |\n | F5 | ╩ |\n | F6 | ║ |\n | F7 | ╣ |\n | F8 | ╠ |\n | F9 | ╗ |\n | F10 | ╝ |\n | F12 | ╔ |\n | Insert | ╚ |\n | Delete | . |
+Add meg a pálya nevét: 
+A pálya mentése sikeresen megtörtént!
+Amennyiben mentenéd a pályát, nyomd meg az END gombot!\nHa tovább szerkesztenéd, nyomd meg a HOME gombot!
+A pálya mentése nem ajánlott, mivel nincsenek termek és kijáratok!
+A pálya mentése nem ajánlott, mivel nincsenek kijáratok!
+A pálya mentése nem ajánlott, mivel nincsenek termek elhelyezve!

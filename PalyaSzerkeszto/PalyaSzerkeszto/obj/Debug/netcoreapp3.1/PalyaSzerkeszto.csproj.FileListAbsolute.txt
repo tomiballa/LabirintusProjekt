@@ -1,0 +1,14 @@
+D:\Szísárp projects\PalyaSzerkeszto\PalyaSzerkeszto\bin\Debug\netcoreapp3.1\PalyaSzerkeszto.exe
+D:\Szísárp projects\PalyaSzerkeszto\PalyaSzerkeszto\bin\Debug\netcoreapp3.1\PalyaSzerkeszto.deps.json
+D:\Szísárp projects\PalyaSzerkeszto\PalyaSzerkeszto\bin\Debug\netcoreapp3.1\PalyaSzerkeszto.runtimeconfig.json
+D:\Szísárp projects\PalyaSzerkeszto\PalyaSzerkeszto\bin\Debug\netcoreapp3.1\PalyaSzerkeszto.runtimeconfig.dev.json
+D:\Szísárp projects\PalyaSzerkeszto\PalyaSzerkeszto\bin\Debug\netcoreapp3.1\PalyaSzerkeszto.dll
+D:\Szísárp projects\PalyaSzerkeszto\PalyaSzerkeszto\bin\Debug\netcoreapp3.1\PalyaSzerkeszto.pdb
+D:\Szísárp projects\PalyaSzerkeszto\PalyaSzerkeszto\obj\Debug\netcoreapp3.1\PalyaSzerkeszto.csproj.AssemblyReference.cache
+D:\Szísárp projects\PalyaSzerkeszto\PalyaSzerkeszto\obj\Debug\netcoreapp3.1\PalyaSzerkeszto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Szísárp projects\PalyaSzerkeszto\PalyaSzerkeszto\obj\Debug\netcoreapp3.1\PalyaSzerkeszto.AssemblyInfoInputs.cache
+D:\Szísárp projects\PalyaSzerkeszto\PalyaSzerkeszto\obj\Debug\netcoreapp3.1\PalyaSzerkeszto.AssemblyInfo.cs
+D:\Szísárp projects\PalyaSzerkeszto\PalyaSzerkeszto\obj\Debug\netcoreapp3.1\PalyaSzerkeszto.csproj.CoreCompileInputs.cache
+D:\Szísárp projects\PalyaSzerkeszto\PalyaSzerkeszto\obj\Debug\netcoreapp3.1\PalyaSzerkeszto.dll
+D:\Szísárp projects\PalyaSzerkeszto\PalyaSzerkeszto\obj\Debug\netcoreapp3.1\PalyaSzerkeszto.pdb
+D:\Szísárp projects\PalyaSzerkeszto\PalyaSzerkeszto\obj\Debug\netcoreapp3.1\PalyaSzerkeszto.genruntimeconfig.cache
