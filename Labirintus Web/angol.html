@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,15 +8,15 @@
       rel="stylesheet" type="text/css"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
       <link rel="stylesheet" href="style.css">
-    <title>Labirintus játék</title>
+    <title>Labyrinth</title>
   </head>
   <body>
     <div class="container my-5">
-      <h1 class="text-center">Labirintus játék</h1> 
+      <h1 class="text-center">Labyrinth, the game</h1> 
       <p class="lead text-justify">
-        A játék arról szól, hogy a játékosnak fel kell fedeznie minden szobát egy labirintusban, majd keresni egy kijáratot.
+        Our games main focus is that the player has to discover every room, then find a way out and leave before the time expires.
       </p>
-      <p class="lead text-justify">A játék megnyitása után, a menüben lehet angol és magyar nyelvet, pályát vagy annak mentését állítani, és persze elindítani a játékot.</p>
+      <p class="lead text-justify">After you open the game, you can change the language to Hungarian or English, even select a map or save it. Of course, you can start the game too.</p>
       <div class="row">
         <div class="col-sm-6">
           <img
@@ -47,22 +47,22 @@
           />
         </div>
         <div class="row-sm-6 tt">
-          <h2>Amit a játékunk nyújt;</h2>
+          <h2>Things that our game gives;</h2>
           <ul>
-            <li>Kis nehezítés, vagyis labirintus felfedezése</li>
-            <li>Minőségi User Interface</li>
-            <li>Szórakozás</li>
-            <li>Egyszerű, de nagyszerű grafikák</li>
-            <li>Bug nélküli játékmenet</li>
+            <li>Changeable difficulty</li>
+            <li>Primely done UI.</li>
+            <li>Entertainment</li>
+            <li>Simple yet great graphics</li>
+            <li>Bug-free gameplay</li>
           </ul>
         </div>
         <div class="row-sm-6" id="iranyitas">
-            <h2>Irányítás</h2>
+            <h2>Movements</h2>
             <ul>
-              <li>W - előre</li>
-              <li>A - Balra</li>
-              <li>S - hátra</li>
-              <li>D - jobbra</li>
+              <li>W - forward</li>
+              <li>A - left</li>
+              <li>S - back</li>
+              <li>D - right</li>
             </ul>
           </div>
       </div>
@@ -71,44 +71,44 @@
           class="btn btn-primary btn-lg"
           onclick="window.location.href='https:/\/github.com/tomiballa/LabirintusProjekt'"
         >
-          Töltsd le itt a játékot!
+          Download the game here!
         </button>
         <div class="text-center my-5">
-           <a href="angol.html" class="btn btn-primary btn-lg">Angol nyelv</a>
+           <a href="index2.html" class="btn btn-primary btn-lg">Hungarian</a>
         </div>
       </div>
       <div class="review-section">
-        <h2 class="text-center">Véleményed fontos számunkra! Küldd el nekünk, hogy fejleszthessük a játékot!</h2>
+        <h2 class="text-center">Your opinion is important to us! Send it so we can improve the game! <br> Any feedback is well appreciated.</h2>
         <form action="submit-review.php" method="post">
           <div class="form-group">
-            <label for="review-name">A neved:</label>
-            <input type="text" placeholder="Gipsz Jakab" class="form-control" id="review-name" name="name" required>
+            <label for="review-name">Your name: </label>
+            <input type="text" placeholder="Joe Mama" class="form-control" id="review-name" name="name" required>
           </div>
           <div class="form-group">
-            <label for="review-email">Az e-mail címed:</label>
-            <input type="email" placeholder="teszt@gmail.com" class="form-control" id="review-email" name="email" required>
+            <label for="review-email">Your e-mail:</label>
+            <input type="email" placeholder="joe@gmail.com" class="form-control" id="review-email" name="email" required>
           </div>
           <div class="form-group">
-            <label for="review-message">A véleményed:</label>
-            <textarea class="form-control" placeholder="Ide várjuk a véleményt" id="review-message" name="message" rows="3" required></textarea>
+            <label for="review-message">Your opinion:</label>
+            <textarea class="form-control" placeholder="We are waiting for your opinion here." id="review-message" name="message" rows="3" required></textarea>
           </div>
-          <button type="submit" class="btn btn-primary" onclick="alert('Véleményed elküldésre került. Köszönjük a visszajelzést!')">Vélemény elküldése</button>
+          <button type="submit" class="btn btn-primary" onclick="alert('A feedback has been sent. Thank you for your response!')">Submit your opinion</button>
         </form>
       </div>
       <br>
       <br>
       <div class="review-section">
-        <h2 class="text-center">Iratkozz fel a hírlevelünkre, hogy ne maradj le a frissítésekről!</h2>
+        <h2 class="text-center">Subscribe to our newsletter, so you won't miss the updates!</h2>
           <div class="form-group">
-            <label for="review-email">Az e-mail címed:</label>
-            <input type="email" placeholder="teszt@gmail.com" class="form-control" id="review-email" name="email" required>
+            <label for="review-email">Your e-mail:</label>
+            <input type="email" placeholder="joe@gmail.com" class="form-control" id="review-email" name="email" required>
           </div>
-          <button type="submit" class="btn btn-primary" onclick="alert('Sikeres feliratkozás!')">Feliratkozás!</button>
+          <button type="submit" class="btn btn-primary" onclick="alert('Successful subscription!')">Subscribe!</button>
         </form>
       </div>
       <br>
       <br>
-      <h2 class="text-center">Csapatunk</h2>
+      <h2 class="text-center">Our team</h2>
       <div style="display: flex; justify-content: space-between;" class="review-section">
         <img src="Images/user1.jpg" alt="david" style="width: 30%; border-radius: 10px;">
         <img src="Images/user2.jpg" alt="tamas" style="width: 30%; border-radius: 10px;">

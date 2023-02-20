@@ -103,3 +103,38 @@ button {
 .tt {
   margin-left: 50px;
 }
+
+.nyelv{
+  color: white;
+}
+
+a{
+  background-color: #4c4c4c;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 18px;
+  transition: all 0.3s;
+  font-family: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+  box-shadow: 0 0 10px #0a459e00, 0 0 20px #083da0fb, 0 0 30px #0d5cb8, 0 0 40px #1173ce;
+}
+
+a.btn:hover{
+  background-color: #ffffff;
+  color: #4c4c4c;
+  cursor: pointer;
+  transition: ease 0.5s;
+  font-family: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+  box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #0d5cb8, 0 0 40px #1173ce, 0 0 50px #1f5eb1;
+}
+
+a.btn{
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
